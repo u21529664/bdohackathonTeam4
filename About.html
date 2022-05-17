@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About TendTrack</h1>
+  <p> TendTrack is a well thought proposed solution that aims at transforming the government procurement through blockchain so that the government departments can be able to track tender funds.</p>
+  <br>
+  <p></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Kgaogelo Puka</h2>
+        <p class="title">Project leader & IT Business Analyst</p>
+        <p> BIT Information Systems at University of PRETORIA.</p>
+        <p>u21529664@tuks.co.za</p>
+        <p>+27 65 889 6218</p>
+        <p><button class="button" >Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    
+      <div class="container">
+        <h2>Vanessa Rooi</h2>
+        <p class="title">IT Business Analyst</p>
+        <p>  Bcom Informatics student at the University of PRETORIA</p>
+        <p>u20574542@tuks.co.za</p>
+        <p>+27 82 704 5356</p>
+       
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    
+      <div class="container">
+        <h2>Ketro Sithole</h2>
+        <p class="title">IT Business Analyst</p>
+        <p> BIS Information Science student at the University of PRETORIA</p>
+        <p>Sithole.tk@tuks.co.za</p>
+        <p>+27 74 907 6929</p>
+       
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    
+      <div class="container">
+        <h2>Ntokozo Mokone</h2>
+        <p class="title">IT Business Analyst</p>
+        <p> Bcom Information Science student at the University of PRETORIA</p>
+        <p>u20495880@tuks.co.za</p>
+        <p>+27 82 669 8017</p>
+       
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

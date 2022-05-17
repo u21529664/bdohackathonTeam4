@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "Hackathon.js"></script>
+</head>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.about-section {
+  padding: 200px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.btn-group button {
+      background-color: #555; /* Green background */
+      border: 1px solid #555; /* Green border */
+      color: white; /* White text */
+      padding: 10px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      width: 50%; /* Set a width if needed */
+      display: block; /* Make the buttons appear below each other */
+      margin-left: 25% ;
+      
+    }
+   .search-container{
+     margin-left: 50%;
+     width:300%
+   }
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Track funds</h1>
+  
+</div>
+<br><br>
+<div class="search-container">
+    <form >
+      <select id="Department" name="Department">
+        <option value = ""></option>
+        <option value="CMTG">Calvin and Gladys Health Services Incorporation</option>
+        <option value ="Kgaogelo">Kgaogelo and Partners</option>
+        <option value = "Vanessa">Vee's manufacturing company</option>
+      </select>
+      <button ><a href ="Tracking Page.html">Search</a></button>
+    </form>
+  </div>
+</body>
+</html>
